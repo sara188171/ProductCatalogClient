@@ -1,12 +1,25 @@
 ﻿angular.module('productCatalogApp')
-    .service('productService', ['$http', function ($http) {
-        var apiUrl = 'https://localhost:7055/api/products';
+    .constant('API_CONFIG', {
+        baseUrl: 'https://localhost:7055/api/'
+    })
+    .service('productService', ['$http', 'API_CONFIG', function ($http, API_CONFIG) {
+        var apiUrl = API_CONFIG.baseUrl + 'Products';
 
         this.getProducts = function () {
-            return $http.get(apiUrl);
+            return $http.get(apiUrl)
+                .then(response => response)
+                .catch(error => {
+                    console.error('Error fetching products:', error);
+                    throw error;
+                });
         };
 
         this.addProduct = function (product) {
-            return $http.post(apiUrl, product);
+            return $http.post(apiUrl, product)
+                .then(response => response)
+                .catch(error => {
+                    console.error('Error adding product:', error);
+                    throw error;
+                });
         };
     }]);

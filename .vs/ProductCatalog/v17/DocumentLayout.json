@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ProductCatalog\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4AF4B1C5-0AFB-43C4-9917-A83CA420EF98}|ProductCatalog\\ProductCatalog.csproj|C:\\Users\\User\\source\\repos\\ProductCatalog\\productcatalog\\app\\app.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4AF4B1C5-0AFB-43C4-9917-A83CA420EF98}|ProductCatalog\\ProductCatalog.csproj|solutionrelative:productcatalog\\app\\app.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4AF4B1C5-0AFB-43C4-9917-A83CA420EF98}|ProductCatalog\\ProductCatalog.csproj|c:\\users\\user\\source\\repos\\productcatalog\\productcatalog\\app\\app.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{4AF4B1C5-0AFB-43C4-9917-A83CA420EF98}|ProductCatalog\\ProductCatalog.csproj|solutionrelative:productcatalog\\app\\app.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AF4B1C5-0AFB-43C4-9917-A83CA420EF98}|ProductCatalog\\ProductCatalog.csproj|c:\\users\\user\\source\\repos\\productcatalog\\productcatalog\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{4AF4B1C5-0AFB-43C4-9917-A83CA420EF98}|ProductCatalog\\ProductCatalog.csproj|C:\\Users\\User\\source\\repos\\ProductCatalog\\productcatalog\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4AF4B1C5-0AFB-43C4-9917-A83CA420EF98}|ProductCatalog\\ProductCatalog.csproj|solutionrelative:productcatalog\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AF4B1C5-0AFB-43C4-9917-A83CA420EF98}|ProductCatalog\\ProductCatalog.csproj|c:\\users\\user\\source\\repos\\productcatalog\\productcatalog\\app\\app.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4AF4B1C5-0AFB-43C4-9917-A83CA420EF98}|ProductCatalog\\ProductCatalog.csproj|solutionrelative:productcatalog\\app\\app.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AF4B1C5-0AFB-43C4-9917-A83CA420EF98}|ProductCatalog\\ProductCatalog.csproj|c:\\users\\user\\source\\repos\\productcatalog\\productcatalog\\app\\app.module.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{4AF4B1C5-0AFB-43C4-9917-A83CA420EF98}|ProductCatalog\\ProductCatalog.csproj|C:\\Users\\User\\source\\repos\\ProductCatalog\\productcatalog\\app\\app.module.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{4AF4B1C5-0AFB-43C4-9917-A83CA420EF98}|ProductCatalog\\ProductCatalog.csproj|solutionrelative:productcatalog\\app\\app.module.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
@@ -26,30 +26,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "app.service.js",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProductCatalog\\ProductCatalog\\app\\app.service.js",
               "RelativeDocumentMoniker": "ProductCatalog\\app\\app.service.js",
               "ToolTip": "C:\\Users\\User\\source\\repos\\ProductCatalog\\ProductCatalog\\app\\app.service.js",
               "RelativeToolTip": "ProductCatalog\\app\\app.service.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-01-05T18:19:14.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "app.controller.js",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProductCatalog\\ProductCatalog\\app\\app.controller.js",
               "RelativeDocumentMoniker": "ProductCatalog\\app\\app.controller.js",
               "ToolTip": "C:\\Users\\User\\source\\repos\\ProductCatalog\\ProductCatalog\\app\\app.controller.js",
               "RelativeToolTip": "ProductCatalog\\app\\app.controller.js",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAzwAwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-01-05T18:18:53.755Z",
               "EditorCaption": ""
@@ -69,13 +69,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProductCatalog\\ProductCatalog\\index.html",
               "RelativeDocumentMoniker": "ProductCatalog\\index.html",
               "ToolTip": "C:\\Users\\User\\source\\repos\\ProductCatalog\\ProductCatalog\\index.html",
               "RelativeToolTip": "ProductCatalog\\index.html",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2025-01-05T18:18:08.855Z",
               "EditorCaption": ""
