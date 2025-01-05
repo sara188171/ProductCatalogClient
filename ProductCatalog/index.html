@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html ng-app="productCatalogApp">
+<head>
+    <title>Product Catalog</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app/app.module.js"></script>
+    <script src="app/app.controller.js"></script>
+    <script src="app/app.service.js"></script>
+
+</head>
+<body ng-controller="productListController">
+
+    <h3>Add Product</h3>
+    <form ng-submit="addProduct()">
+        <input type="text" ng-model="productName" placeholder="Product Name" required>
+        <input type="text" ng-model="productCategory" placeholder="Category" required>
+        <input type="number" ng-model="productPrice" placeholder="Price" required>
+        <button type="submit">Add Product</button>
+    </form>
+
+    <h3>Product List</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Category</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="product in products">
+                <td>{{ product.name }}</td>
+                <td>{{ product.category }}</td>
+                <td>{{ product.price }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
